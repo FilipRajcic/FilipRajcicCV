@@ -1,0 +1,62 @@
+.reducer__header--3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.reducer__paragraph {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+  color: white;
+}
+
+.reducer__image {
+  height: 25rem;
+}
+.reducer__img {
+  margin-top: -2rem;
+  height: 25rem;
+}
+
+.reducer__hr {
+  border: 1px solid #34495e;
+}
+
+.reducer__link {
+  display: block;
+  font-size: 2rem;
+  color: white;
+}
+
+.reducer__contact {
+  margin-top: 3rem;
+}
+.reducer__skills {
+  margin-top: 0;
+}
+.reducer__other {
+  margin-top: 3rem;
+}
+.reducer__education {
+  margin-top: -4rem;
+}
+.reducer__portfolio {
+  margin-top: 2rem;
+}
+
+.reducer__about {
+  margin-top: 2rem;
+}
+
+.reducer__whats {
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.reducer__center {
+  width: 60%;
+}
