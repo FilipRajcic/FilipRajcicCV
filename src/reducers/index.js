@@ -105,6 +105,14 @@ const screensReducer = () => {
           >
             My YouTube (React)
           </a>
+          <a
+            className="reducer__link"
+            href="https://filiprajciccv.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Filip Rajcic CV (React)
+          </a>
         </div>
       ),
     },
