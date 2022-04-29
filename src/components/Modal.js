@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import "./Modal.css";
+import "./Modal.scss";
 import { connect } from "react-redux";
 import { selectScreen } from "../actions";
 import { AiOutlineClose } from "react-icons/ai";

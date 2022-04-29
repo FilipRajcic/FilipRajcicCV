@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import React from "react";
-import "./Reducer.css";
+import "./Reducer.scss";
 
 const skillsImg = require("../images/skills.png");
 const nodejsImg = require("../images/nodejs.png");
@@ -95,7 +95,7 @@ const screensReducer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Rock Papper Scissors (JS)
+            Rock Paper Scissors (JS)
           </a>
           <a
             className="reducer__link"

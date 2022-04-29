@@ -9,6 +9,14 @@
   width: 600px;
   z-index: 0;
   animation: rotate 30s linear infinite;
+  @media only screen and(max-width: 800px) {
+    height: 400px;
+    width: 400px;
+  }
+  @media only screen and(max-width: 500px) {
+    height: 370px;
+    width: 370px;
+  }
 }
 
 @keyframes rotate {

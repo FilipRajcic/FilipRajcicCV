@@ -5,6 +5,10 @@
   width: 80px;
   cursor: pointer;
   transition: all 0.2s;
+  @media only screen and(max-width: 800px) {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .bubble__item {
@@ -122,6 +126,10 @@
 .bubble__item--icon {
   height: 50px;
   width: 50px;
+  @media only screen and(max-width: 800px) {
+    height: 30px;
+    width: 30px;
+  }
 }
 
 .bubble__item--text {
@@ -134,6 +142,9 @@
   animation: none;
   font-size: 1.5rem;
   z-index: 2;
+  @media only screen and(max-width: 800px) {
+    font-size: 1.2rem;
+  }
 }
 
 @keyframes rotateReverse {

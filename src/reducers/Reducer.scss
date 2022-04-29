@@ -3,6 +3,10 @@
   font-size: 2rem;
   color: white;
   text-align: center;
+  @media only screen and(max-width: 800px) {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
 }
 
 .reducer__paragraph {
@@ -10,14 +14,27 @@
   font-size: 1.8rem;
   margin-bottom: 0.2rem;
   color: white;
+  @media only screen and(max-width: 800px) {
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
 }
 
 .reducer__image {
   height: 25rem;
+  @media only screen and(max-width: 800px) {
+    margin-top: 5rem;
+    height: 15rem;
+  }
 }
 .reducer__img {
   margin-top: -2rem;
   height: 25rem;
+  @media only screen and(max-width: 800px) {
+    height: 15rem;
+    margin-top: 0;
+  }
 }
 
 .reducer__hr {
@@ -28,6 +45,9 @@
   display: block;
   font-size: 2rem;
   color: white;
+  @media only screen and(max-width: 800px) {
+    font-size: 1.5rem;
+  }
 }
 
 .reducer__contact {
@@ -41,6 +61,10 @@
 }
 .reducer__education {
   margin-top: -4rem;
+
+  @media only screen and(max-width: 800px) {
+    margin-top: 0;
+  }
 }
 .reducer__portfolio {
   margin-top: 2rem;
@@ -48,6 +72,9 @@
 
 .reducer__about {
   margin-top: 2rem;
+  @media only screen and(max-width: 800px) {
+    margin-top: 4rem;
+  }
 }
 
 .reducer__whats {

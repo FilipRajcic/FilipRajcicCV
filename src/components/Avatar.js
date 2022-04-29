@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Avatar.css";
+import "./Avatar.scss";
 class Avatar extends Component {
   avatar = require("../images/Avatar.png");
   state = { hover: false };

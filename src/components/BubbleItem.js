@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./BubbleItem.css";
+import "./BubbleItem.scss";
 import { connect } from "react-redux";
 import { selectScreen } from "../actions";
 

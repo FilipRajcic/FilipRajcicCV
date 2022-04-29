@@ -1,6 +1,6 @@
 import React from "react";
 import BubbleItem from "./BubbleItem";
-import "./BubbleList.css";
+import "./BubbleList.scss";
 import { BsBook, BsThreeDots, BsPerson, BsQuestion } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlinePhone } from "react-icons/ai";
