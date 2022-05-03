@@ -28,12 +28,25 @@
     height: 15rem;
   }
 }
-.reducer__img {
-  margin-top: -2rem;
-  height: 25rem;
+
+.reducer__flex {
+  display: flex;
+}
+.reducer__img--1 {
+  margin-top: 2rem;
+
+  margin-left: 2rem;
+  height: 10rem;
   @media only screen and(max-width: 800px) {
-    height: 15rem;
-    margin-top: 0;
+    height: 8rem;
+  }
+}
+.reducer__img--2 {
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+  height: 8rem;
+  @media only screen and(max-width: 800px) {
+    height: 5rem;
   }
 }
 

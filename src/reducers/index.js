@@ -4,6 +4,7 @@ import "./Reducer.scss";
 
 const skillsImg = require("../images/skills.png");
 const nodejsImg = require("../images/nodejs.png");
+const TsImg = require("../images/typescript.png");
 
 const screensReducer = () => {
   return [
@@ -143,13 +144,15 @@ const screensReducer = () => {
       title: "Whats next?",
       content: (
         <div className="reducer__whats">
-          <h3 className="reducer__header--3">Node Js</h3>
+          <h3 className="reducer__header--3">My Interests</h3>
           <p className="reducer__paragraph reducer__center">
-            Front-end is amazing, but im not going to stop there, im so hungry
-            for more knowledge and i think the next step is back-end
-            development.
+            Im so hungry for more knowledge both in front-end and in back-end
+            development, so far this is what im most interested in...
           </p>
-          <img className="reducer__img" src={nodejsImg} alt="nodejs"></img>
+          <div className="reducer__flex">
+            <img className="reducer__img--2" src={TsImg} alt="typescript"></img>
+            <img className="reducer__img--1" src={nodejsImg} alt="nodejs"></img>
+          </div>
         </div>
       ),
     },
